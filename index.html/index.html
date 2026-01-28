@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panadería La Especial</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #faf7f2;
+      color: #3a2e25;
+      line-height: 1.6;
+    }
+    header {
+      background: #c49a6c;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    header h1 { font-size: 3em; margin-bottom: 10px; }
+    section { padding: 60px 20px; max-width: 1100px; margin: auto; }
+    h2 { text-align: center; margin-bottom: 30px; color: #7a4a2e; }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+    .text-center { text-align: center; }
+    .family img { border-radius: 20px; }
+    .tribute {
+      background: #fff;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    .tribute img {
+      width: 280px;
+      border-radius: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+    }
+    .tribute h3 { font-size: 2em; margin-bottom: 15px; }
+    footer {
+      background: #3a2e25;
+      color: #eee;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Panadería La Especial</h1>
+  <p>Tradición, familia y amor horneado cada día</p>
+</header>
+
+<section>
+  <h2>Nuestra Historia</h2>
+  <p class="text-center">Panadería La Especial nace del esfuerzo de una familia trabajadora, donde el amor por el pan, la dedicación diaria y la unión familiar se convirtieron en un negocio que hoy es parte del corazón de la comunidad. Cada producto refleja nuestras raíces, nuestra historia y el compromiso con la calidad.</p>
+</section>
+
+<section>
+  <h2>Nuestros Panes</h2>
+  <div class="gallery">
+    <img src="images/pan1.jpg" alt="Pan artesanal">
+    <img src="images/pan2.jpg" alt="Pan fresco">
+    <img src="images/pan3.jpg" alt="Pan tradicional">
+    <img src="images/pan4.jpg" alt="Pan especial">
+  </div>
+</section>
+
+<section>
+  <h2>Nuestras Tortas</h2>
+  <div class="gallery">
+    <img src="images/torta1.jpg" alt="Torta artesanal">
+    <img src="images/torta2.jpg" alt="Torta especial">
+    <img src="images/torta3.jpg" alt="Torta familiar">
+  </div>
+</section>
+
+<section class="family">
+  <h2>La Familia</h2>
+  <p class="text-center">Detrás de cada amanecer y cada horno encendido hay una familia que trabaja unida, compartiendo sueños, esfuerzo y valores. La Panadería La Especial es, ante todo, una familia al servicio de su comunidad.</p>
+  <div class="gallery">
+    <img src="images/familia1.jpg" alt="Familia panadería">
+    <img src="images/familia2.jpg" alt="Trabajo en familia">
+    <img src="images/familia3.jpg" alt="Tradición familiar">
+  </div>
+</section>
+
+<section class="tribute">
+  <img src="images/amanda.jpg" alt="Amanda Teresa Meza Romero">
+  <h3>Amanda Teresa Meza Romero</h3>
+  <p><em>Nuestra luz eterna</em></p>
+  <p>Amanda fue parte fundamental de este sueño. Junto a su madre construyó con amor, alegría y dedicación cada paso de este camino. Aunque hoy no esté físicamente con nosotros, su sonrisa vive en cada recuerdo, en cada pan horneado y en cada corazón que tocó.</p>
+  <p>Su legado permanece intacto: amor, esperanza y felicidad compartida. Amanda vive para siempre en su familia, en esta panadería y en el corazón de toda la comunidad.</p>
+</section>
+
+<footer>
+  <p>Panadería La Especial © Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
